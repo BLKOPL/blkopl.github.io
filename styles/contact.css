@@ -1,0 +1,96 @@
+body{
+  background: url(../images/BC.jpg);
+  color: #777777;
+
+}
+
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
+.container .main{
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.container .side{
+  padding: 5px;
+  margin: 5px;
+}
+
+.header{
+  background: #4aaaa5;
+  border: #cccccc;
+  color: white;
+
+}
+
+.nav{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  background: white;
+  line-height: 5em;
+}
+
+.nav li {
+  list-style: none;
+  float: right;
+  padding: 0 15px 0 0;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #ebebeb;
+
+}
+
+.nav li a:link, .nav li a:visited {
+  text-decoration: none;
+}
+
+.body{
+
+}
+
+.body p {
+  line-height: 1.6em;
+}
+
+.main{
+  width: 650px;
+  float: left;
+  background: #ffffff;
+  border: #dddddd;
+}
+
+.main-inner{
+  padding: 0 60px 0 0;
+  clear: right;
+
+}
+
+.side{
+  width: 270px;
+  float: left;
+  background: #ffffff;
+  border: #dddddd;
+
+}
+
+.footer{
+  background: #666666;
+  padding: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
